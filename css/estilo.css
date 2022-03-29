@@ -1,0 +1,239 @@
+/* Script de estilazação da página index.hmtl */
+
+/* Padrão do corpo da página */
+.corpo {
+	margin-top: 50px;
+	margin-left: 320px;
+	margin-bottom: 60px;
+	margin-right: 320px;
+}
+
+/* Estilização do título principal da página */
+.titulo {
+	border: solid;
+	border-color: #A9A9A9;
+	background-color: #A9A9A9;
+	color: #363636;
+	font-family: 'Noto Sans SC', sans-serif;
+	padding: 8px;
+}
+
+/* Estilização do subtítulo da página  */
+.subtitulo {
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* Padrão dos parágrafos da página */
+.paragrafo {
+	font-family: 'Noto Sans SC', sans-serif;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+/* Class para centralizar textos específicos */
+.centralizar {
+	text-align: center;
+}
+
+/* Class para o recuo dos parágrafos */
+.recuo {
+	text-indent:4em;
+}
+
+/* Class para deixar os parágrafos justificados */
+.justificado {
+	text-align: justify;
+}
+
+/* Padrão de familia de fonte da lista */
+.lista {
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* Formatação do fundo da imagem 1 */
+.fundo_img1 {
+	margin: 0px auto;
+	margin-top: 12px;
+	height: 50%;
+	width: 50%;
+	text-align: center;
+	text-indent: 0;
+	border: solid;
+	border-color: #D3D3D3;
+	background-color: #DCDCDC;
+}
+
+/* Formatação da imagem 1 em si */
+.img1 {
+	height: 95%;
+	width: 95%;
+	margin-top: 13px;
+}
+
+/* Formatação da descrição da imagem 1 */
+.nome_img1 {
+	text-align: center;
+	font-family: 'Noto Sans SC', sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+/* Formatação das linhas de divisão de assuntos da página */
+hr {
+	padding: 2px;
+	background-color:#1C1C1C;
+	border-color:#1C1C1C;
+}
+
+/* Formatação do fundo da imagem 2 */
+.fundo_img2 {
+	float: left;
+	float: right;
+	border: solid;
+	border-color: #D3D3D3;
+	background-color: #DCDCDC;
+	padding: 12px;
+	position: relative;
+	margin-right: 1px;
+}
+
+.nome_img2 {
+	margin-top: 12px;
+}
+
+/* Acessibilidade */
+
+.link_acessibilidade {
+	font-family: 'Noto Sans SC', sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.link_acessibilidade:hover	{
+	color: #4B0082;
+	text-decoration: underline;
+}
+
+.link_voltar_ao_normal {
+	font-family: 'Noto Sans SC', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.link_voltar_ao_normal:hover	{
+	color: #000080;
+	text-decoration: underline;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* Formatação da acessibilidade */
+
+/* Padrão do corpo da página */
+.corpo_acessibilidade {
+	margin-top: 50px;
+	margin-left: 320px;
+	margin-bottom: 60px;
+	margin-right: 320px;
+	background-color: black;
+}
+
+/* Estilização do título principal da página */
+.titulo_acessibilidade {
+	border: solid;
+	border-color: #A9A9A9;
+	background-color: #A9A9A9;
+	color: #363636;
+	font-family: 'Noto Sans SC', sans-serif;
+	padding: 8px;
+	color: white;
+}
+
+/* Estilização do subtítulo da página  */
+.subtitulo_acessibilidade {
+	font-family: 'Noto Sans SC', sans-serif;
+	color: white;
+}
+
+/* Padrão dos parágrafos da página */
+.paragrafo_acessibilidade {
+	font-family: 'Noto Sans SC', sans-serif;
+	margin-left: 60px;
+	margin-right: 60px;
+	color: white;
+}
+
+/* Class para centralizar textos específicos */
+.centralizar_acessibilidade {
+	text-align: center;
+}
+
+/* Class para o recuo dos parágrafos */
+.recuo_acessibilidade {
+	text-indent:4em;
+}
+
+/* Class para deixar os parágrafos justificados */
+.justificado_acessibilidade {
+	text-align: justify;
+}
+
+/* Padrão de familia de fonte da lista */
+.lista_acessibilidade {
+	font-family: 'Noto Sans SC', sans-serif;
+	color: white;
+}
+
+/* Formatação do fundo da imagem 1 */
+.fundo_img1_acessibilidade {
+	margin: 0px auto;
+	margin-top: 12px;
+	height: 50%;
+	width: 50%;
+	text-align: center;
+	text-indent: 0;
+	border: solid;
+	border-color: #D3D3D3;
+	background-color: #DCDCDC;
+}
+
+/* Formatação da imagem 1 em si */
+.img1_acessibilidade {
+	height: 95%;
+	width: 95%;
+	margin-top: 13px;
+}
+
+/* Formatação da descrição da imagem 1 */
+.nome_img1_acessibilidade {
+	text-align: center;
+	font-family: 'Noto Sans SC', sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color: black;
+}
+
+/* Formatação das linhas de divisão de assuntos da página */
+.hr_acessibilidade {
+	padding: 2px;
+	background-color:#1C1C1C;
+	border-color:#1C1C1C;
+	background-color: white;
+}
+
+/* Formatação do fundo da imagem 2 */
+.fundo_img2_acessibilidade {
+	float: left;
+	float: right;
+	border: solid;
+	border-color: #D3D3D3;
+	background-color: #DCDCDC;
+	padding: 12px;
+	position: relative;
+	margin-right: 1px;
+}
+
+.nome_img2_acessibilidade {
+	color: black;
+	margin-top: 12px;
+}
